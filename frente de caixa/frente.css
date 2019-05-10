@@ -1,0 +1,12 @@
+#topbar{
+   height: 65px;
+   background-color: #1e1f38;
+   text-align: center;
+   font-size: 25px;
+   padding-top: 13px;
+   color: white;
+}
+
+#table-scroll{
+   overflow-y: scroll;
+}

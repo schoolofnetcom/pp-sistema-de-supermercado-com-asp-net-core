@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="frente.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+
+                <div>
+                        <div id="topbar">
+                            <b>SONMakert</b>
+                        </div>
+                </div>
+
+    <div class="container">
+        <hr>
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>Produto: </h2>
+                <div class="input-group">
+                    <input type="search" class="form-control" placeholder="Código do produto">
+                    <span class="input-group-btn">
+                        <button class="btn btn-success" type="button">Pesquisar</button>
+                    </span>
+                </div>
+                <br>
+                <h3>Informações</h3>
+                <hr>
+                <form class="form-horizontal">
+                <label>Nome</label>
+                <input type="text" class="form-control" placeholder="Nome do produto" disabled>
+                <br>
+                <label>Categoria</label>
+                <input type="text" class="form-control" placeholder="Categoria" disabled>
+                <br>
+                <label>Fornecedor</label>
+                <input type="text" class="form-control" placeholder="Fornecedor" disabled>
+                <br>
+                <label >Preço de custo</label>
+                <input class="form-control" type="number" step="any" placeholder="10.99" disabled>
+                <span></span><br>
+                <label>Preço de venda</label>
+                <input class="form-control"  type="number" step="any" placeholder="20.50" disabled><br>
+                
+                <label>Quantidade</label>
+                <input class="form-control" type="number" step="any" placeholder="Quantidade"><br>
+                
+                <button class="btn btn-success">Confirmar</button>
+                </form>
+
+            </div>
+            <div class="col-sm-8">
+                    <h3>Compra: </h3>
+                    <hr>
+                <div id="table-scroll">
+                    <table id="produtos" class="table table-striped table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Nome</th>
+                                <th>Quantidade</th>
+                                <th>Preço de venda</th>
+                                <th>Medição</th>
+                                <th>Total</th>
+                                <th>Remover</th>
+                                </tr>
+                                </thead>
+                        <tbody>  
+                        </tbody>
+                        </table>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row" >
+            <hr>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                    <button type="button" class="btn btn-success">Finalizar Compra</button>
+                    <button type="button" class="btn btn-danger">Cancelar compra</button>
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+        <hr>
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+</html>
